@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ratemygym-dev-e9a83-authRole",
+      "UnauthRoleArn": "arn:aws:iam::992382390290:role/amplify-ratemygym-dev-e9a83-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::992382390290:role/amplify-ratemygym-dev-e9a83-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-ratemygym-dev-e9a83-deployment",
+      "UnauthRoleName": "amplify-ratemygym-dev-e9a83-unauthRole",
+      "StackName": "amplify-ratemygym-dev-e9a83",
+      "StackId": "arn:aws:cloudformation:us-west-2:992382390290:stack/amplify-ratemygym-dev-e9a83/c241fce0-1c84-11ef-8eb7-0638dcd6e767",
+      "AmplifyAppId": "d2gei56ie5rmr8"
+    },
+    "categories": {
+      "auth": {
+        "ratemygymc58816d7": {}
+      }
+    }
+  }
+}

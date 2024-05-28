@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ratemygym-dev-e9a83-authRole",
+      "UnauthRoleArn": "arn:aws:iam::992382390290:role/amplify-ratemygym-dev-e9a83-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::992382390290:role/amplify-ratemygym-dev-e9a83-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-ratemygym-dev-e9a83-deployment",
+      "UnauthRoleName": "amplify-ratemygym-dev-e9a83-unauthRole",
+      "StackName": "amplify-ratemygym-dev-e9a83",
+      "StackId": "arn:aws:cloudformation:us-west-2:992382390290:stack/amplify-ratemygym-dev-e9a83/c241fce0-1c84-11ef-8eb7-0638dcd6e767",
+      "AmplifyAppId": "d2gei56ie5rmr8"
+    }
+  },
+  "auth": {
+    "ratemygymc58816d7": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-ratemygym-dev-e9a83-deployment/amplify-cfn-templates/auth/ratemygymc58816d7-cloudformation-template.json",
+        "logicalId": "authratemygymc58816d7"
+      },
+      "lastPushTimeStamp": "2024-05-28T00:27:12.410Z",
+      "output": {
+        "UserPoolId": "us-west-2_MefADE0SH",
+        "AppClientIDWeb": "enuuina6r8sg7vojc1ocni706",
+        "AppClientID": "6ssr9lfip3iv1m4ulpnqjfpuot",
+        "IdentityPoolId": "us-west-2:c80743f9-350a-449c-8659-9a22c76e3e4f",
+        "UserPoolArn": "arn:aws:cognito-idp:us-west-2:992382390290:userpool/us-west-2_MefADE0SH",
+        "IdentityPoolName": "ratemygymc58816d7_identitypool_c58816d7__dev",
+        "UserPoolName": "ratemygymc58816d7_userpool_c58816d7"
+      },
+      "lastPushDirHash": "Fb6tKNgkj4KEM8AwlfhqMn6KE9o="
+    }
+  }
+}
